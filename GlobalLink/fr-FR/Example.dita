@@ -29,7 +29,7 @@
         <resourceid id="iq-bot-ha-dr-cluster-overview"></resourceid>
     </prolog>
     <conbody>
-        <p>Les faisceaux d'ha protègent des services et
+        <p>La MISE À JOUR ICI POUR des faisceaux d'ha de DÉMO protègent des services et
             données en cas d'un échec de serveur ou de service. Ce qui suit est une liste de processus
             lié aux faisceaux. <ul id="ul_pxl_mgk_chb">
                 <li><b>Réplique de base de données</b>- Configurez la réplique synchrone entre
