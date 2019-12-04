@@ -29,7 +29,7 @@
         <resourceid id="iq-bot-ha-dr-cluster-overview"></resourceid>
     </prolog>
     <conbody>
-        <p>Ha Blöcke schützen Dienstleistungen und
+        <p>UPDATE HIER FÜR DEMO-ha Blöcke schützen Dienstleistungen und
             Daten im Falle eines Bediener- oder Service-Ausfalls. Das folgende ist eine Liste von Prozessen
             verbunden mit Blöcken. <ul id="ul_pxl_mgk_chb">
                 <li><b>Datenbankreproduktion</b>- Bauen Sie synchrone Reproduktion zwischen zusammen
