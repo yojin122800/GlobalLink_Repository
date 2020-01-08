@@ -2,7 +2,7 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="iq-bot-ha-dr-cluster-overview" xml:lang="en-US">
     <title>Vue d'ensemble de configuration de faisceau d'ha</title>
-    <shortdesc>Pour soutenir <ph keyref="enterprise"/> votre centre de calculs, configurent un faisceau d'ha.
+    <shortdesc>Pour soutenir <ph keyref="enterprise"/> A mis à jour votre centre de calculs, configure un faisceau d'ha.
         Suivez vos méthodes et procédures de compagnie pour mettre en application votre faisceau du centre de calculs. </shortdesc>
     <prolog>
         <author>Automation n'importe où</author>
@@ -91,7 +91,7 @@
                 services.</li>
             <li><b>Échecs d'emplacement dans des organismes de multisite</b>- causé par des désastres normaux, puissance
                 pannes, ou pannes de connectivité.</li>
-            <li><b>Échecs de système et de matériel</b>- affectation des composants de matériel tels que des unités centrales de traitement,
+            <li><b>Échecs de système et de matériel</b>- affectant des composants de matériel tels que des unités centrales de traitement,
                 commandes, mémoire, adapteurs de réseau, et alimentations d'énergie.</li>
         </ul>
         <p>Cette capacité de manipuler l'échec permet à des faisceaux de répondre à deux exigences qui sont typiques
