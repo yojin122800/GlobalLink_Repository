@@ -2,7 +2,7 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="iq-bot-ha-dr-cluster-overview" xml:lang="en-US">
     <title>Ha Block-Konfiguration überblick</title>
-    <shortdesc>Sich stützen <ph keyref="enterprise"/> Ihr Rechenzentrum, bauen einen ha Block zusammen.
+    <shortdesc>Sich stützen <ph keyref="enterprise"/> Aktualisierte Ihr Rechenzentrum, baut einen ha Block zusammen.
         Folgen Sie Ihren Firmamethoden und -verfahren für das Einführen Ihres Rechenzentrumblockes. </shortdesc>
     <prolog>
         <author>Automatisierung überall</author>
