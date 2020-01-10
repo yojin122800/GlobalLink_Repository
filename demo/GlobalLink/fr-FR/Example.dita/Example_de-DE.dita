@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="iq-bot-ha-dr-cluster-overview" xml:lang="en-US">
+    <title>Výúéë d'éënséëmbléë déë còónfïígýúräætïíòón déë fäæïíscéëäæýú d'häæ</title>
+    <shortdesc>Pòôúúr sòôúútêènîîr <ph keyref="enterprise"/> Ã mììs à jõõüúr võõtrëê cëêntrëê dëê cààlcüúls, cõõnfììgüúrëê üún fààììscëêààüú d'hàà. Súûïívêëz vöòs méthöòdêës êët pröòcédúûrêës dêë cöòmpåàgnïíêë pöòúûr mêëttrêë êën åàpplïícåàtïíöòn vöòtrêë fåàïíscêëåàúû dúû cêëntrêë dêë cåàlcúûls. </shortdesc>
+    <prolog>
+        <author>Äúútöômáætííöôn n'íímpöôrtéè öôù</author>
+        <author type="contributor">bêèthææny.kæænýüìí</author>
+        <critdates>
+            <created date="2019-02-19"/>
+            <!-- Update the revised critdate for changes other than typos -->
+            <revised modified="2019-02-19"/>
+            <!--bethany.kanui-->
+            <revised modified="2019/05/07"/>
+            <!--bethany.kanui-->
+            <revised modified="2019/05/08"/>
+            <!--bethany.kanui-->
+            <revised modified="2019/05/09"/>
+            <!--bethany.kanui-->
+            <revised modified="2019/05/13"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>Hãá<indexterm>prõòcéêssúús</indexterm></indexterm>
+                <indexterm>fâäîïscèéâäûû<indexterm>prôòcëéssýús</indexterm></indexterm>
+            </keywords>
+        </metadata>
+        <resourceid id="iq-bot-ha-dr-cluster-overview"></resourceid>
+    </prolog>
+    <conbody>
+        <p>Láæ MÍSÈ À JÕÜR ÍCÍ PÕÜR dêés fáæíîscêéáæûûx d'háæ dêé DÉMÕ prôôtègêént dêés sêérvíîcêés êét dôônnéêés êén cáæs d'ûûn échêéc dêé sêérvêéûûr ôôûû dêé sêérvíîcêé. Cèè qùüíï sùüíït èèst ùünèè líïstèè dèè pröócèèssùüs líïé ãäùüx fãäíïscèèãäùüx. <ul id="ul_pxl_mgk_chb">
+                <li><b>Réplïìqûýëé dëé bâåsëé dëé dõõnnéëés</b>- Còõnfïîgùüréèz läá réplïîqùüéè synchròõnéè éèntréè éèmpläácéèméènt prïîmäáïîréè (äáctïîf) éèt séèrvéèùürs (päássïîfs) séècòõndäáïîréès déè MMË. SQL d'èèmplæãcèèmèènt à æãssùûrèèr ùûníïfôòrmíïté èèn cæãs d'ùûn échèèc dèè nôòèèùûd dèè bæãsèè dèè dôònnéèès. </li>
+                <li><b>Tèêmps d'äærrêt</b>- Läà qûúäàntîîté dèé tèémps d'äàrrêt dépèénd dûú nöòmbrèé dèé tèéntäàtîîvèés dèé rèéläàncèémèént l'äàdmîînîîsträàtèéûúr cöònfîîgûúrèé pöòûúr lèés sèérvîîcèés prîîmäàîîrèés dèé sèérvèéûúr, lèé nöòmbrèé dèé lèés fäàîîlöòvèérs öònt pèérmîîs päàr nöòmbrèé d'hèéûúrèés, èét cöònfîîgûúräàtîîöòn dèé fäàîîlbäàck.</li>
+                <li><b>Fâäïîlbâäck</b>- Âprès qùûéë léë séërvéëùûr prîìmæàîìréë sôôîìt réëtôôùûrné à læà nôôrmæàléë, læà chæàrgéë déë træàvæàîìl péëùût sôôyéëz échôôùûé éën æàrrîìèréë déës séërvéëùûrs séëcôôndæàîìréës æàùûx séërvéëùûrs prîìmæàîìréës. Léé príímåäííréé léé séérvééûür déévííéént léé séérvééûür åäctííf ééncòôréé.<p>Rêécóõnstîítùùtîíóõn dêés óõpérããtîíóõns ããùù prîímããîírêé systèmêé óõùù êémplããcêémêént ããprès ùùn rétããblîíssêémêént dêé fããîílóõvêér óõùù dêé désããstrêé sùùr ùùn systèmêé sêécóõndããîírêé óõùù êémplããcêémêént. </p></li>
+                <li><b>Fæáîìlóôvéêr</b>- Sìì ûún déês séêrvéêûúrs prììmæáììréês échõóûúéê, læá chæárgéê déê træávæáììl dûú échõóûúé léê séêrvéêûúr décæáléê æáûútõómæátììqûúéêméênt æáûú séêrvéêûúr séêcõóndæáììréê dæáns léê fæáììscéêæáûú. Cëècïî lëè prôócëèssúús äáúútôómäátïîqúúëè s'äáppëèllëè lëè fäáïîlôóvëèr. Fåâîílôòvèèr åâssûýrèè låâ dîíspôònîíbîílîíté côòntîínûýèè dèès åâpplîícåâtîíôòns èèt dèès dôònnéèès. Qúúåãnd lèé fåãîílôóvèér åãccôómplîít, lèé sèérvèéúúr sèécôóndåãîírèé dèévîíèént lèé sèérvèéúúr åãctîíf. <p>Qüýáänd lëë systèmëë (prìímáäìírëë) d'áä détëëctëë üýn défáäüýt óõüý üýn échëëc, ìíl tráänsfèrëë áäüýtóõmáätìíqüýëëmëënt láä cóõmmáändëë áäüý systèmëë dóõüýblëë (sëëcóõndáäìírëë) d'áä. Céêcìí s'äàpplìíqùùéê äàùùx fäàìíscéêäàùùx d'häà, à óòù léê fäàìílóòvéêr éêst d'ùùn séêrvéêùùr déês äàùùtréês.</p></li>
+                <li><b>Dégráãdáãtîîõõn gráãcîîèéùûsèé</b>- Dépéëndåäncéës låäíïssåäntéës déë próòcéëssýüs déë fåäíïscéëåäýü à fóònctíïóònnéër åävéëc élégåäncéë sýür ýün éëmplåäcéëméënt príïmåäíïréë dégråädé.</li>
+                <li><b>Rêèdõóndäàncêè</b>- Rêêdõôndáåncêê d'úütíîlíîsáåtíîõôn dêê fáåíîscêêáåúüx d'háå põôúür êêmpêchêêr dêê sêêúüls põôíînts d'échêêc (SPÔF), cõômmêê úün sêêrvêêúür õôúü úün sêêrvíîcêê échõôúüé. Lèès fäáìíscèèäáûùx d'häá ìínclûùèènt prìímäáìírèè (äáctìíf) sèèrvèèûùrs qûùìí sèèrvìícèès dèè cèèntrèè sèèrvèèûùr òòûù bäásèès dèè dòònnéèès èèt sèèrvèèûùrs (päássìífs) sèècòòndäáìírèès cèèläá äáccûùèèìíllèèz lèès còòpìíèès rèèplìíéèès dèès sèèrvìícèès èèt dèès bäásèès dèè dòònnéèès. </li>
+                <li><b>Réplîíqûùëé</b>- Lèës sèërvèëúûrs sèëcòöndâåìîrèës òönt lâå mêmèë còönfìîgúûrâåtìîòön èët lòögìîcìîèël còömmèë sèërvèëúûrs prìîmâåìîrèës, ìîls sòönt úûnèë rèëpròödúûctìîòön (còöpìîèë súûpèërflúûèë) dèë prìîmâåìîrèë. Déés döònnééés söònt rééplïìééés (cöòpïìé) déés séérvééúýrs prïìmàãïìréés àãúý séécöòndàãïìréé séérvééúýrs. </li>
+            </ul></p>
+        <p>Pôôùùr sôôùùtèënïîr l'hàå èët lèë DR pôôùùr <ph keyref="enterprise"/>, cõõnfìígûùrëêz lëês cõõmpõõsæãnts chõõìísìís dëêdæãns võõtrëê cëêntrëê dëê cæãlcûùls põõûùr l'hæã.</p>
+        <ul id="ul_tpw_t44_bhb"> 
+            <li><b>Cõómpõósàánts dêè fàáìíscêèàáùü</b>- Ün fâãïíscèéâãûû èést dèés sèérvèéûûrs d'ûûn èénsèémblèé (nóöèéûûds) qûûïí sóönt rèélïíés près câblèés èét lóögïícïíèél physïíqûûèés. Dæàns üùn èénvïìrõönnèémèént d'hæà, cèés fæàïìscèéæàüùx dèés sèérvèéüùrs sõönt læàïìssé êtrèé æàüù mêmèé cèéntrèé dèé cæàlcüùls physïìqüùèé. <p>
+                    <note>Däàns lêê côõntêêxtêê dêês fäàïîscêêäàýýx, cêêpêêndäànt lêês lïîmïîtêês sêêrvêêýýr, lêê cêêntrêê sêêrvêêýýr, êêt lêê nôõêêýýd chäàcýýn äàyêêz läà sïîgnïîfïîcäàtïîôõn spécïîfïîqýýêê, ïîls sôõnt fréqýýêêmmêênt êêmplôõyés l'ýýn pôõýýr l'äàýýtrêê.</note>
+                </p><ul id="ul_a4m_shs_xgb">
+                    <li><b>Grôôùùpèê dèê fâåîíscèêâåùù (rôlèê)</b>- Gròõûùpêè dêè sêèrvîïcêès gròõûùpés qûùîï fääîïlòõvêèr êènsêèmblêè êèt dépêèndêèz dêè l'ûùn l'ääûùtrêè. </li>
+                    <li><b>Cëëntrëë sëërvëëùür</b>- Láæ máæchìînéë déë fáæìîscéëáæúý qúýìî áæccúýéëìîlléë léës séërvìîcéës.</li>
+                    <li><b>Nöóëèýùd</b>- Ùnéê lìímìítéê générìíqûùéê póôûùr ûùnéê mâæchìínéê dâæns ûùn fâæìíscéêâæûù.</li>
+                    <li><b>Nöôéêýýd prîìmæåîìréê</b>- Léè nöóéèýûd åâctîïf dåâns léè fåâîïscéèåâýû. Læâ mæâchïïnëè òõù còõúúrsëè d'æâctïïvïïtés dëè pròõdúúctïïòõn. </li>
+                    <li><b>Nöòêëûûd sêëcöòndâæíírêë</b>- Låå mååchïínêë qùúïí êëst ïíndïíqùúéêë cõómmêë cïíblêë dååns événêëmêënt d'ùún fååïílõóvêër. Lèê nòöèêúýd sèêcòöndáãîírèê èêst úýnèê rèêpròödúýctîíòön páãssîívèê dèê nòöèêúýd prîímáãîírèê. </li>
+                    <li><b>Sëèrvëèüûr</b>- Lãà mãàchïínèë dãàns lèë fãàïíscèëãàýú ïínstãàllé ãàvèëc l'òõpérãàtïíòõn dèë sèërvèëýúr systèmèë.</li>
+                </ul></li>
+            <li><b>Cóòmmáândèê dèê vèêrsíîóòn dèê rèêssóòùýrcèê (VCS óòùý SVN)</b></li>
+        </ul>
+        <p>Lëês tëêchnöôlöôgìîëês dëê fâæìîscëêâæûû d'hâæ gâærdëênt cöôntrëê tröôìîs typëês spécìîfìîqûûëês d'échëêcs :</p>
+        <ul id="ul_ehy_dnj_xgb">
+            <li><b>Échèécs d'ääpplìïcäätìïôón èét dèé sèérvìïcèé</b>- ææffëèctæætîìòón dûú lòógîìcîìëèl d'ææpplîìcæætîìòón ëèt ëèssëèntîìëèl sëèrvîìcëès.</li>
+            <li><b>Échëëcs d'ëëmplååcëëmëënt dååns dëës õòrgåånïìsmëës dëë mùûltïìsïìtëë</b>- cææûüsé pæær dèès désææstrèès nòôrmææûüx, pûüíïssææncèè pæænnèès, òôûü pæænnèès dèè còônnèèctíïvíïté.</li>
+            <li><b>Échèêcs dèê systèmèê èêt dèê måâtéríìèêl</b>- áåfféëctáånt déës cóõmpóõsáånts déë máåtérïîéël téëls qüüéë déës üünïîtés céëntráåléës déë tráåïîtéëméënt, cóõmmáåndéës, mémóõïîréë, áådáåptéëüürs déë réséëáåüü, éët áålïîméëntáåtïîóõns d'énéërgïîéë.</li>
+        </ul>
+        <p>Cêèttêè cæâpæâcîìté dêè mæânîìpüûlêèr l'échêèc pêèrmêèt à dêès fæâîìscêèæâüûx dêè répóôndrêè à dêèüûx êèxîìgêèncêès qüûîì sóônt typîìqüûêès dæâns læâ plüûpæârt dêès êènvîìróônnêèmêènts düû cêèntrêè dêè cæâlcüûls :</p>
+        <ul id="ul_pr3_cnj_xgb">
+            <li><b>Dîíspõònîíbîílîíté éléêvééê</b>- làå càåpàåcìîté dêè fòôûúrnìîr à dêès ûútìîlìîsàåtêèûúrs l'àåccès à ûún sêèrvìîcêè pòôûúr ûún pòôûúrcêèntàågêè élêèvé dêè têèmps êèt rédûúìît lêès pàånnêès nòôn-pròôgràåmméêès.</li>
+            <li><b>Fìîãábìîlìîté élëèvéëè</b>- låà cåàpåàcïíté déé rédùùïíréé låà fréqùùééncéé déé l'échééc déé systèméé.</li>
+        </ul>
+        
+        </conbody>
+    <related-links><?oxy-placeholder content="These links represent topic-to-topic connections, or connections to non-DITA-topic resources."?></related-links>
+</concept>
