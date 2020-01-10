@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="iq-bot-ha-dr-cluster-overview" xml:lang="en-US">
+    <title>HÆ clùýstëèr cöônfìïgùýråátìïöôn öôvëèrvìïëèw</title>
+    <shortdesc>Töö süùppöört <ph keyref="enterprise"/> Ûpdåätëéd yôôûùr dåätåä cëéntëér, côônfîígûùrëé åän HÆ clûùstëér. Föòllöòw yöòùúr cöòmpåäny mêëthöòds åänd pröòcêëdùúrêës föòr íîmplêëmêëntíîng yöòùúr dåätåä cêëntêër clùústêër. </shortdesc>
+    <prolog>
+        <author>Æûýtôômåàtïîôôn Ænywhëêrëê</author>
+        <author type="contributor">bëëthâány.kâánúüîí</author>
+        <critdates>
+            <created date="2019-02-19"/>
+            <!-- Update the revised critdate for changes other than typos -->
+            <revised modified="2019-02-19"/>
+            <!--bethany.kanui-->
+            <revised modified="2019/05/07"/>
+            <!--bethany.kanui-->
+            <revised modified="2019/05/08"/>
+            <!--bethany.kanui-->
+            <revised modified="2019/05/09"/>
+            <!--bethany.kanui-->
+            <revised modified="2019/05/13"/>
+        </critdates>
+        <metadata>
+            <keywords>
+                <indexterm>HÄ<indexterm>pròõcèëssèës</indexterm></indexterm>
+                <indexterm>clûüstêër<indexterm>próócëèssëès</indexterm></indexterm>
+            </keywords>
+        </metadata>
+        <resourceid id="iq-bot-ha-dr-cluster-overview"></resourceid>
+    </prolog>
+    <conbody>
+        <p>ÙPDÀTË HËRË FÔR DËMÔ HÀ clùýstéêrs pröôtéêct séêrvìícéês âãnd dâãtâã ìín théê éêvéênt öôf âã séêrvéêr öôr séêrvìícéê fâãìílùýréê. Thèê föôllöôwìïng ìïs æâ lìïst öôf pröôcèêssèês æâssöôcìïæâtèêd wìïth clùústèêrs. <ul id="ul_pxl_mgk_chb">
+                <li><b>Dáãtáãbáãsëê rëêplîìcáãtîìõón</b>—Cóònfïïgýürèé synchróònóòýüs rèéplïïcàåtïïóòn bèétwèéèén thèé prïïmàåry sïïtèé (àåctïïvèé) àånd sèécóòndàåry sïïtèé (pàåssïïvèé) MS SQL sèérvèérs tóò èénsýürèé cóònsïïstèéncy ïïn thèé èévèént óòf àå dàåtàåbàåsèé nóòdèé fàåïïlýürèé. </li>
+                <li><b>Döôwntïìmèé</b>—Thèé âãmöóùúnt öóf döówntîímèé dèépèénds öón thèé nùúmbèér öóf rèéstâãrt âãttèémpts thèé âãdmîínîístrâãtöór cöónfîígùúrèés föór thèé prîímâãry sèérvèér sèérvîícèés, thèé nùúmbèér öóf fâãîílöóvèérs âãllöówèéd pèér nùúmbèér öóf höóùúrs, âãnd thèé fâãîílbâãck cöónfîígùúrâãtîíöón.</li>
+                <li><b>Fåàìîlbåàck</b>—Åftèér thèé príímæâry sèérvèér íís rèétüùrnèéd töò nöòrmæâl, thèé wöòrklöòæâd cæân bèé fæâíílèéd bæâck fröòm thèé sèécöòndæâry sèérvèérs töò thèé príímæâry sèérvèérs. Thèè prîîmáæry sèèrvèèr bèècóõmèès thèè áæctîîvèè sèèrvèèr áægáæîîn.<p>Rèêstôõrîïng ôõpèêráâtîïôõns tôõ thèê prîïmáâry systèêm ôõr sîïtèê áâftèêr áâ fáâîïlôõvèêr ôõr dîïsáâstèêr rèêcôõvèêry ôõn áâ sèêcôõndáâry systèêm ôõr sîïtèê. </p></li>
+                <li><b>Fáàîïlöôvéér</b>—Ìf ôönëè ôöf thëè prïîmâàry sëèrvëèrs fâàïîls, thëè wôörklôöâàd ôöf thëè fâàïîlëèd sëèrvëèr âàûùtôömâàtïîcâàlly shïîfts tôö thëè sëècôöndâàry sëèrvëèr ïîn thëè clûùstëèr. Thîís àæûútóômàætîíc próôcèèss îís càællèèd fàæîílóôvèèr. Fäãíìlòôvêêr êênsúýrêês còôntíìnúýòôúýs äãväãíìläãbíìlíìty òôf äãpplíìcäãtíìòôns äãnd däãtäã. Whéén fååìîlõôvéér cõômpléétéés, théé séécõôndååry séérvéér béécõôméés théé ååctìîvéé séérvéér. <p>Whêèn äå (prîímäåry) systêèm dêètêècts äå fäåýùlt õòr fäåîílýùrêè, îít äåýùtõòmäåtîícäålly träånsfêèrs cõòntrõòl tõò äå (sêècõòndäåry) dýùplîícäåtêè systêèm. Thíîs ããpplíîéés tôô HÀ clùûstéérs, whééréé fããíîlôôvéér íîs frôôm ôônéé séérvéér tôô ããnôôthéér.</p></li>
+                <li><b>Græâcèêfýýl dèêgræâdæâtîíõôn</b>—Prõöcéèss ãællõöwíìng clûùstéèr déèpéèndéèncíìéès tõö õöpéèrãætéè grãæcéèfûùlly õön ãæ déègrãædéèd príìmãæry síìtéè.</li>
+                <li><b>Rëèdüýndæãncy</b>—HÆ clüústëérs üúsëé rëédüúndãâncy tóô prëévëént sîìnglëé póôîìnts óôf fãâîìlüúrëé (SPÔF), süúch ãâs ãâ fãâîìlëéd sëérvëér óôr sëérvîìcëé. HÂ clýùstëêrs ìïnclýùdëê prìïmããry (ããctìïvëê) sëêrvëêrs thããt hööst sëêrvìïcëês öör dããtããbããsëês ããnd sëêcööndããry (pããssìïvëê) sëêrvëêrs thããt hööst rëêplìïcããtëêd cööpìïëês ööf thëê sëêrvìïcëês ããnd dããtããbããsëês. </li>
+                <li><b>Rééplîìcáãtîìòón</b>—Thëé sëécöõndåàry sëérvëérs håàvëé thëé såàmëé cöõnfìîgûýråàtìîöõn åànd söõftwåàrëé åàs thëé prìîmåàry sëérvëérs, thëéy åàrëé åà dûýplìîcåàtëé (rëédûýndåànt cöõpy) öõf thëé prìîmåàry. Dáàtáà îîs rèèplîîcáàtèèd (côõpîîèèd) frôõm thèè prîîmáàry sèèrvèèrs tôõ thèè sèècôõndáàry sèèrvèèrs. </li>
+            </ul></p>
+        <p>Tóö súûppóört HÄ áänd DR fóör <ph keyref="enterprise"/>, cóônfîîgûûrëë thëë sëëlëëctëëd cóômpóônëënts îîn yóôûûr däåtäå cëëntëër fóôr HÅ.</p>
+        <ul id="ul_tpw_t44_bhb"> 
+            <li><b>Clùústèër côõmpôõnèënts</b>—À clûústêêr ïîs äå sêêt sêêrvêêrs (nöödêês) thäåt äårêê cöönnêêctêêd by physïîcäål cäåblêês äånd sööftwäårêê. Ín âæn HÄ êénvïîròõnmêént, thêésêé clýüstêérs òõf sêérvêérs âærêé âællòõwêéd tòõ bêé ïîn thêé sâæmêé physïîcâæl dâætâæ cêéntêér. <p>
+                    <note>Ïn thèë cõóntèëxt õóf clýüstèërs, thõóýügh thèë tèërms sèërvèër, hõóst, àãnd nõódèë èëàãch hàãvèë spèëcïïfïïc mèëàãnïïng, thèëy àãrèë frèëqýüèëntly ýüsèëd ïïntèërchàãngèëàãbly.</note>
+                </p><ul id="ul_a4m_shs_xgb">
+                    <li><b>Clýûstéér grõöýûp (rõöléé)</b>—Gròóùüp òóf clùüstéérééd séérvîícéés thäät fääîílòóvéér tòógééthéér äänd ääréé déépééndéént òón ééääch òóthéér. </li>
+                    <li><b>Hòôst</b>—Thëë clýûstëër máæchîïnëë tháæt îïs hóòstîïng thëë sëërvîïcëës.</li>
+                    <li><b>Nòödëë</b>—Â géènéèrìîc téèrm föõr æä mæächìînéè ìîn æä clýùstéèr.</li>
+                    <li><b>Prîïmæäry nöòdèé</b>—Thëé ææctìïvëé nóódëé ìïn thëé clüùstëér. Thèè mæåchîînèè whèèrèè thèè próódùùctîîóón æåctîîvîîtîîèès rùùn. </li>
+                    <li><b>Sêècôóndääry nôódêè</b>—Théê måàchïìnéê thåàt ïìs déêsïìgnåàtéêd åàs théê tåàrgéêt ïìn théê éêvéênt öôf åà fåàïìlöôvéêr. Théé séécòôndæáry nòôdéé íìs æá pæássíìvéé dûùplíìcæátéé òôf théé príìmæáry nòôdéé. </li>
+                    <li><b>Sëérvëér</b>—Thèé mäàchíìnèé íìn thèé clúýstèér íìnstäàllèéd wíìth thèé sèérvèér ôõpèéräàtíìng systèém.</li>
+                </ul></li>
+            <li><b>Rëésõõüürcëé vëérsììõõn cõõntrõõl (VCS õõr SVN)</b></li>
+        </ul>
+        <p>HÂ clûüstèër tèëchnòõlòõgííèës gûüæárd æágæáíínst thrèëèë spèëcíífííc typèës òõf fæáíílûürèës:</p>
+        <ul id="ul_ehy_dnj_xgb">
+            <li><b>Àpplìïcäãtìïöôn äãnd séërvìïcéë fäãìïlüýréës</b>—æâfféèctìïng æâpplìïcæâtìïóón sóóftwæâréè æând éèsséèntìïæâl séèrvìïcéès.</li>
+            <li><b>Sîïtèë fâãîïlúùrèës îïn múùltîïsîïtèë óörgâãnîïzâãtîïóöns</b>—cåæüýsèêd by nåætüýråæl díìsåæstèêrs, póõwèêr óõüýtåægèês, óõr cóõnnèêctíìvíìty óõüýtåægèês.</li>
+            <li><b>Systèém åánd håárdwåárèé fåáíîlùúrèés</b>—åâfféêctìîng håârdwåâréê cöömpöönéênts sýùch åâs CPÛs, drìîvéês, méêmööry, néêtwöörk åâdåâptéêrs, åând pööwéêr sýùpplìîéês.</li>
+        </ul>
+        <p>Thíîs âãbíîlíîty tôó hâãndlèè fâãíîlýúrèè âãllôóws clýústèèrs tôó mèèèèt twôó rèèqýúíîrèèmèènts thâãt âãrèè typíîcâãl íîn môóst dâãtâã cèèntèèr èènvíîrôónmèènts:</p>
+        <ul id="ul_pr3_cnj_xgb">
+            <li><b>Hìïgh åávåáìïlåábìïlìïty</b>—thèë âábïîlïîty tóó próóvïîdèë èënd üýsèërs wïîth âáccèëss tóó âá sèërvïîcèë fóór âá hïîgh pèërcèëntâágèë óóf tïîmèë âánd rèëdüýcèës üýnschèëdüýlèëd óóüýtâágèës.</li>
+            <li><b>Hìîgh rèèlìîààbìîlìîty</b>—thêè äâbïìlïìty tóö rêèdúýcêè thêè frêèqúýêèncy óöf systêèm fäâïìlúýrêè.</li>
+        </ul>
+        
+        </conbody>
+    <related-links><?oxy-placeholder content="These links represent topic-to-topic connections, or connections to non-DITA-topic resources."?></related-links>
+</concept>
