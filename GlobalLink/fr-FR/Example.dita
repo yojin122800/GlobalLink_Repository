@@ -91,7 +91,7 @@
                 services.</li>
             <li><b>Échecs d'emplacement dans des organismes de multisite</b>- causé par des désastres normaux, puissance
                 pannes, ou pannes de connectivité.</li>
-            <li><b>Échecs de système et de matériel</b>- affectation des composants de matériel tels que des unités centrales de traitement,
+            <li><b>Échecs de système et de matériel</b>- affectant des composants de matériel tels que des unités centrales de traitement,
                 commandes, mémoire, adapteurs de réseau, et alimentations d'énergie.</li>
         </ul>
         <p>Cette capacité de manipuler l'échec permet à des faisceaux de répondre à deux exigences qui sont typiques
